@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
 export default defineConfig({
-  base: 'https://github.com/ozgenur00/vue-exercise-expense-tracker',
+  base: '/vue-exercise-expense-tracker/',
   plugins: [
     vue(),
     vueDevTools(),
